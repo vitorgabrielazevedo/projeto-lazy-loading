@@ -1,0 +1,42 @@
+/* Fonte Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #333;
+}
+
+#title {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem 0px;
+    text-align: center;
+}
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.img-container {
+    margin: 1rem;
+    padding: 1rem;
+    width: 1000px;
+}
+
+.img-container > img {
+    width: 100%;
+}
+
+.img-container > figcaption {
+    color: #fff;
+    padding: 5px 0px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
